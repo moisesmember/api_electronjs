@@ -1,0 +1,21 @@
+{
+  "name": "api_electronjs",
+  "version": "1.0.0",
+  "description": "Aplicação de conhecimento da API node electronjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "nodemon main.js",
+    "start": "electron ."
+  },
+  "keywords": [
+    "electronjs"
+  ],
+  "author": "Moisés Felipe dos Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
